@@ -1,0 +1,1 @@
+function toggleSettingsMenu(){var e=document.getElementById("settingsMenu");e&&e.classList.toggle("hidden")}Office.onReady(function(e){if(e.host===Office.HostType.Excel){var t=document.getElementById("settingsBtn");t&&(t.onclick=toggleSettingsMenu)}});
